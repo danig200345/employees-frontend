@@ -8,11 +8,11 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'checks',
+    redirectTo: '/checks',
     pathMatch: 'full'
   },
   {
     path: '**',
-    redirectTo: 'checks'
+    redirectTo: '/checks'
   }
 ];
