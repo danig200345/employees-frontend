@@ -30,17 +30,17 @@ jobs:
         run: npm run build:prod
 
       - name: Copy index.html to 404.html in Checks
-        run: cp dist/dashboard-entradas-salidas/browser/checks/index.html dist/dashboard-entradas-salidas/browser/checks/404.html
+        run: cp dist/dashboard-entadas-salidas/browser/checks/index.html dist/dashboard-entadas-salidas/browser/checks/404.html
 
       - name: Copy index.html to 404.html
-        run: cp dist/dashboard-entradas-salidas//browser/index.html dist/dashboard-entradas-salidas/browser/404.html
+        run: cp dist/dashboard-entadas-salidas/browser/index.html dist/dashboard-entadas-salidas/browser/404.html
 
       - name: List files for debugging
-        run: ls -R dist/dashboard-entradas-salidas/browser
+        run: ls -R dist/dashboard-entadas-salidas/browser
 
       - name: Deploy GitHub Pages site
         uses: crazy-max/ghaction-github-pages@v4.2.0
         with:
-          build_dir: ./dist/dashboard-entradas-salidas/browser
+          build_dir: ./dist/dashboard-entadas-salidas/browser
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
