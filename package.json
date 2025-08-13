@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --base-href /",
+    "build:prod": "ng build --configuration production --base-href /employees-frontend/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:dashboard-entadas-salidas": "node dist/dashboard-entadas-salidas/server/server.mjs"
