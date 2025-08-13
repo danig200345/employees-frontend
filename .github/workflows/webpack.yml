@@ -33,7 +33,7 @@ jobs:
         run: cp dist/dashboard-entadas-salidas/browser/checks/index.html dist/dashboard-entadas-salidas/browser/checks/404.html
 
       - name: Copy index.html to 404.html
-        run: cp dist/dashboard-entadas-salidas/browser/index.html dist/dashboard-entadas-salidas/browser/404.html
+        run: cp dist/dashboard-entadas-salidas/browser/index.csr.html dist/dashboard-entadas-salidas/browser/404.html
 
       - name: List files for debugging
         run: ls -R dist/dashboard-entadas-salidas/browser
